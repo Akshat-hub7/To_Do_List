@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+
+body{
+    background-color: #6c757d;
+    text-align: center;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+
+
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem 1rem;
+    width: 30vw;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    background-color: #f8f9fa;
+    box-shadow: 15px 15px 15px #343a40;
+}
+
+.rest-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading{
+    margin-bottom: 2rem;
+    font-weight: 700;
+    text-shadow: 2px 2px 3px #6c757d;
+}
+
+.input-text{
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: #e9ecef;
+    font-weight: 600;
+    box-shadow: 5px 5px 5px #495057;
+}
+
+.new-container{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    box-sizing: border-box;
+
+}
+
+.delete-btn {
+    margin-left: 2rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    background-color: #bc4749;
+    box-shadow: 5px 5px 5px #495057;
+    font-weight: 600;
+    
+}
+
+.unhide{
+    text-decoration: none;
+}
+
+.add-btn{
+    margin-left: 2rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    background-color: #a7c957;
+    box-shadow: 5px 5px 5px #386641;
+    font-weight: 600;
+}
+
+
+.list-items{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: 600;
+}
+
+.list-item{
+    margin: 0.5rem;
+    border: 1px solid;
+    padding: 0.6rem;
+    border: 1px solid;
+    width: 30vw;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    font-weight: 600;
+    background-color: #e9ecef;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    box-shadow: 15px 15px 15px #343a40;
+}
+
+.list-item li{
+    justify-content: start;
+}
